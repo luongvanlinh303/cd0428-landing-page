@@ -13,27 +13,12 @@
  *
  */
 
-/**
- * Comments should be present at the beginning of each procedure and class.
- * Great to have comments before crucial code sections within the procedure.
- */
-
-/**
- * Define Global Variables
- *
- */
-
 let sectionNav = document.querySelectorAll("section");
 let NavTag = document.getElementById("navbar_header");
 let sectionNavLength = sectionNav.length;
 let sectionNavPositions = [];
 let prePosition = 0;
 let currentPosition = 0;
-
-/**
- * End Global Variables
- *
- */
 
 function scrollToSection(sectionID) {
   window.scrollTo(0, sectionID);
